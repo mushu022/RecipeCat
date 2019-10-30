@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+     <link rel="icon" type="image/png" href="img/icon.png"/>
+    <title>Les Entrées</title>
+</head>
+
+<body>
+<div class="header">
+        <div class="logo">
+
+        </div>
+    </div>
+    <div class="bar">
+        <p class="bar_text_index">Les Entrées</p>
+    </div>
+
+    <div class="recette">
+        <div class="type">
+            <div class="img_type_pate"></div>
+            <div class="manger">
+                <p>Chat numéro {% for recipescat in recipecat %}
+                {{ recipescat.id }}</p>
+                {% endfor %}
+            </div>
+            <div class="block_recette">
+                <div class="ingre">
+                    <p>Poids: {% for recipescat in recipecat %}
+                                {{ recipescat.weight }}
+                                    </p>
+                    <p>Age du chat:
+                                {{ recipescat.age }}
+                                    </p>
+                </div>
+                <div class="prepa">
+                    <p>Genre :
+                                {{ recipescat.gender }}
+                            </p>
+                    <p>Taille (longueur): 
+                                {{ recipescat.length }}
+                                    {% endfor %}</p>
+                </div>
+            </div>
+        </div>
+     
+</body>
+</html>
