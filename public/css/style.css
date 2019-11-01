@@ -50,9 +50,9 @@ h1{
 .logo{
     height: 30vh;
     width: 15vw;
-    background-image: url(../img/rooster.jpg);
+    background-image: url(../img/caticon.png);
     background-size: 100%;
-    border: 5px solid blue;
+    border: 5px solid rgb(230, 40, 113);
     border-radius:50%;
     margin-top: 2%;
     box-shadow: 2px 2px white; 
@@ -63,7 +63,7 @@ h1{
     width: 30vw;
     background-image: url(../img/rooster.jpg);
     background-size: 100%;
-    border: 5px solid blue;
+    border: 5px solid rgb(230, 40, 113);
     border-radius:50%;
     margin-top: 3%;
     box-shadow: 2px 2px white; 
@@ -76,36 +76,34 @@ h1{
 .logo_accueil:hover{
     background-image: url(../img/toque.png);
     background-size: 100%;
-    border: 5px solid black;
+    border: 5px solid rgb(230, 40, 113);
     background-color: white;
 }
 
-.recette{
+.catclass{
     width: auto;
     height: 55vh;
-    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .type{
     height: 50vh;
     width: 30vw;
-    border: 2px solid black;
+    border: 2px solid rgb(230, 40, 113);
     border-radius: 2%;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
 }
 
-.img_type_pate{
+.img_type_pew{
     width:30vw;
     height: 20vh;
     background-image: url(../img/pate-en-croute-640.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 
 .img_type_oeuf{
@@ -113,7 +111,7 @@ h1{
     height: 20vh;
     background-image: url(../img/mimosa.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 
 .img_type_coque{
@@ -121,94 +119,94 @@ h1{
     height: 20vh;
     background-image: url(../img/coque.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_creme{
     width:30vw;
     height: 20vh;
     background-image: url(../img/soupe_asperge_verte.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_bourg{
     width:30vw;
     height: 20vh;
     background-image: url(../img/bourg.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_cass{
     width:30vw;
     height: 20vh;
     background-image: url(../img/cassoulet.jpeg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_coq{
     width:30vw;
     height: 20vh;
     background-image: url(../img/coq_au_vin.jpeg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_blan{
     width:30vw;
     height: 20vh;
     background-image: url(../img/blanquette-de-veau.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_tarte{
     width:30vw;
     height: 20vh;
     background-image: url(../img/tarte_au_sucre.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_eclair{
     width:30vw;
     height: 20vh;
     background-image: url(../img/eclair_chocolat.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_pain{
     width:30vw;
     height: 20vh;
     background-image: url(../img/pain_perdu.jpeg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
 .img_type_ile{
     width:30vw;
     height: 20vh;
     background-image: url(../img/ile_flottante.jpg);
     background-size: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(230, 40, 113);
 }
-.manger{
+.roar{
     width: 30vw;
     height: 5vh;
-    border-bottom: 1px solid black;
-    text-align: center;
+    border-bottom: 2px solid rgb(230, 40, 113);
+    text-align: left;
     
 }
 
-.block_recette{
+.block_meow{
     width: 30vw;
     height: 25vh;
     display: flex;
     flex-direction: row;
 }
 
-.ingre{
+.meow{
     width: 15vw;
     height: 25vh;
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(230, 40, 113);
 
 }
 
-.prepa{
+.male_or_not{
     height: 25vh;
     width: 35vw;
     
@@ -216,7 +214,7 @@ h1{
 
 p{
     font-size: 1.2em;
-    color: blue;
+    color: rgb(230, 40, 113);
     text-shadow: 2px 2px white;
     margin-left: 4%;
         
@@ -232,7 +230,7 @@ p{
     border: 1px solid black;
     text-align: center;
     
-    background-image: linear-gradient(to right, #6f6bd1, #8286dd, #99a2e7, #b2bcf0, #ced7f7, #d3d5fb, #dad3fe, #e3d0ff, #f2a7e9, #ff75b8, #ff3d6f, #f40c0c);
+    background-image: linear-gradient(to right, #fafafc, #f5b9cb, #e47fa9, #dd7d95, #e27685, #f87596, #e9535f, #d33059, #c4354d, #cc1b2a, #c20707, #830a10);
 }
 .bar_accueil{
     height: 15vh;
